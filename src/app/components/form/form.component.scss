@@ -1,0 +1,91 @@
+.relatorio-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.relatorio-info p {
+  margin: 0;
+}
+
+#baixarRelatorio {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  background-color: #007bff; /* Azul */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#baixarRelatorio svg {
+  margin-left: 8px;
+}
+
+#divPesquisaRelatorio {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+#inputContainer {
+  position: relative;
+  width: 100%;
+  max-width: 600px; /* Ajustado para um valor maior */
+}
+
+#inputPesquisa {
+  width: 90%;
+  padding: 12px 40px 12px 16px; /* Ajustado o padding para acomodar o ícone */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px; /* Aumenta o tamanho da fonte */
+}
+
+#icon-lupa {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #aaa; /* Ajusta a cor do ícone */
+}
+
+#tipoRelatorioInput {
+  display: flex;
+  align-items: center;
+}
+
+#tipoRelatorioInput p {
+  margin-right: 10px;
+}
+
+#tipoRelatorioInput div {
+  margin-right: 10px;
+}
+
+.Buttao {
+  display: flex;
+  justify-content: flex-end; /* Alinha o botão à direita */
+  margin-top: 20px; /* Adiciona um espaço acima do botão */
+}
+
+#baixarRelatorio {
+  background-color: #FF67B9; /* Cor de fundo rosa */
+  color: #fff; /* Cor do texto branca */
+  padding: 10px 20px; /* Aumenta o tamanho do botão */
+  font-size: 16px; /* Aumenta o tamanho do texto */
+  border: none; /* Remove a borda padrão */
+  border-radius: 5px; /* Bordas arredondadas */
+  cursor: pointer; /* Cursor de ponteiro ao passar sobre o botão */
+  display: flex; /* Para alinhar o ícone e o texto */
+  align-items: center; /* Alinha verticalmente ícone e texto */
+}
+
+#baixarRelatorio svg {
+  margin-left: 8px; /* Espaço entre o texto e o ícone */
+}
